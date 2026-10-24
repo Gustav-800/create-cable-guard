@@ -1,0 +1,41 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "cableguard"
+version = "1.0.0"
+displayName = "Create: Cable Guard"
+authors = "Gustav-800"
+description = '''机械动力：线缆保护 (Create: Cable Guard). Keeps Create: Crafts & Additions wire connections when printing Create schematics, including rotated and mirrored blueprints.'''
+
+[[mixins]]
+config = "cableguard.mixins.json"
+
+[[dependencies.cableguard]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cableguard]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cableguard]]
+modId = "create"
+type = "required"
+versionRange = "[6.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.cableguard]]
+modId = "createaddition"
+type = "required"
+versionRange = "[1.7.0,)"
+ordering = "AFTER"
+side = "BOTH"

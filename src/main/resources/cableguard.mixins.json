@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.cableguard.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockHelperMixin",
+    "SchematicannonMixin",
+    "SchematicPrinterMixin",
+    "WireGraphMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

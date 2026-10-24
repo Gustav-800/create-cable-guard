@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a bug with Create: Cable Guard
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please attach your `latest.log` (or a link to it) and fill in the versions below.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us what you expected to happen.
+      placeholder: Printed a blueprint with wires, but ...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Build two connectors and wire them
+        2. Save a schematic
+        3. Print it with ...
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Minecraft / NeoForge / Create / Create: Crafts & Additions / Cable Guard
+      placeholder: 1.21.1 / 21.1.262 / 6.0.10 / 1.7.2 / 1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste `logs/latest.log` or a link (gist / pastebin).
+      render: text
