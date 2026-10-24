@@ -1,5 +1,10 @@
 # 机械动力：线缆保护 / Create: Cable Guard
 
+[![build](https://github.com/Gustav-800/create-cable-guard/actions/workflows/build.yml/badge.svg)](https://github.com/Gustav-800/create-cable-guard/actions/workflows/build.yml)
+[![Release](https://img.shields.io/github/v/release/Gustav-800/create-cable-guard)](https://github.com/Gustav-800/create-cable-guard/releases)
+
+**下载 / Download:** [GitHub Releases](https://github.com/Gustav-800/create-cable-guard/releases/latest)
+
 [中文](#中文) | [English](#english)
 
 一个 **Create: Crafts & Additions（机械动力：创想附加）** 的附属修复模组：让已连接的电线在 Create 蓝图保存/打印后保留下来，并且在**旋转、镜像**打印时跟着结构一起转向。
